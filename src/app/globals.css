@@ -184,6 +184,35 @@
     scroll-behavior: smooth;
   }
 
+  /* ── Auth panel background ───────────────────────── */
+  .auth-panel-bg {
+    background-color: #1a1a1a;
+    background-color: oklch(0.10 0 0);
+  }
+
+  .auth-panel-mesh {
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 10%, rgb(37 99 235 / 0.55) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 50% at 80% 80%, rgb(99 55 235 / 0.45) 0%, transparent 55%),
+      radial-gradient(ellipse 50% 40% at 50% 50%, rgb(30 58 235 / 0.30) 0%, transparent 70%);
+  }
+
+  .auth-panel-dots {
+    background-image: radial-gradient(circle, rgb(147 197 253 / 0.5) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .auth-panel-line {
+    background: linear-gradient(to right, transparent, rgb(99 146 246 / 0.4), transparent);
+  }
+
+  .auth-panel-card {
+    background: rgb(255 255 255 / 0.05);
+    border: 1px solid rgb(255 255 255 / 0.10);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+
   /* Prompt / code areas use mono font */
   .font-prompt {
     font-family: var(--font-geist-mono);
