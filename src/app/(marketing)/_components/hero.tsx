@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 pt-14">
+    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 pt-20">
       {/* Background grid */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.03] dark:opacity-[0.07]"
@@ -17,7 +17,7 @@ export function Hero() {
       />
 
       {/* Radial glow behind content */}
-      <div className="pointer-events-none absolute left-1/2 top-1/3 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/10 blur-3xl dark:bg-primary/15" />
+      <div className="pointer-events-none absolute left-1/2 top-1/3 h-150 w-150 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/10 blur-3xl dark:bg-primary/15" />
 
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center gap-6 text-center">
         {/* Pill badge */}

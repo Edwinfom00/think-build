@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \":*)",
+      "Bash(find /c/Users/PKT/Desktop/Projects/think-build/node_modules/prisma -name *.md)",
+      "Bash(find /c/Users/PKT/Desktop/Projects/think-build/node_modules/@prisma/client -name *.md)",
+      "Bash(node -e \"console.log\\(require\\(''crypto''\\).randomBytes\\(32\\).toString\\(''hex''\\)\\)\")",
+      "Bash(npx prisma:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(node -e \"const l = require\\(''/c/Users/PKT/Desktop/Projects/think-build/node_modules/lucide-react''\\); console.log\\(Object.keys\\(l\\).filter\\(k => /git|twit|x$/i.test\\(k\\)\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''''exports'''',{}\\), indent=2\\)\\)\")"
+    ]
+  }
+}
